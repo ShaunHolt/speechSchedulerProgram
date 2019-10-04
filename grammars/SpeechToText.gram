@@ -1,0 +1,25 @@
+#JSGF V1.0;
+
+/**
+ * JSGF Grammar 
+ */
+
+grammar grammar;
+
+public <hour> = (set hours to zero|set hours to one |activate recognise one|set hours to two | set hours to three |set hours to four| set hours to five|set hours to six |set hours to seven |set hours to nine|set hours to  ten |speech recognise complete|speech recognise start|stop recognise
+|set hours to eleven | set|set hours to twelve |set hours to thirteen |set hours to fourteen |set hours to fifteen |set hours to sixteen|set hours to seventeen |set hours to eighteen |set hours to nineteen |set hours to twenty |set hours to twenty one |set hours to twenty two |set hours to twenty three |set hours to 
+twenty four|clear timer)+;                   
+
+public <> =(set minute to zero |set minute to one|set minute to two |set minute to three  |set minute to four  |set minute to five  |set minute to six  |set minute to seven  |set minute to nine|set minute to ten 
+|set minute to eleven |set minute to twelve  |set minute to thirteen |set minute to fourteen  |set minute to fifteen  |set minute to sixteen |set minute to seventeen  |set minute to eighteen  |set minute to nineteen  |set minute to twenty  |set minute to twenty one |set minute to twenty two  |set minute to twenty three  |
+twenty four |set minute to twenty five |set minute to twenty six |set minute to twenty seven |set minute to twenty eight |set minute to twenty nine |thirty |set minute to thirty one |
+set minute to thirty two |set minute to thirty three |set minute to thirty four |set minute to thirty five |set minute to thirty six |set minute to thirty seven |set minute to thirty eight |set minute to thirty nine |
+set minute to forty |set minute to forty one |set minute to forty two |set minute to forty three |set minute to forty four |set minute to forty five |set minute to forty six |set minute to forty seven 
+|set minute to forty eight |set minute to forty nine |set minute to fifty |set minute to fifty one |set minute to fifty two |set minute to fifty three |set minute to fifty five |set minute to fifty six |set minute to fifty seven |set minute to fifty eight |set minute to fifty nine |set minute to sixty )+;
+
+public <second> =(set seconds to zero  |set seconds to one  |set seconds to two  |set seconds to three |set seconds to four |set seconds to five |set seconds to six |set seconds to seven |set seconds to nine |set seconds to ten 
+|set seconds to eleven |set seconds to twelve |set seconds to thirteen |set seconds to fourteen |set seconds to fifteen |set seconds to sixteen |set seconds to seventeen |set seconds to eighteen |set seconds to nineteen |set seconds to twenty |set seconds to twenty one |set seconds to twenty two |set seconds to twenty three  |
+set seconds to twenty four |set seconds to twenty five |set seconds to twenty six |set seconds to twenty seven |set seconds to twenty eight |set seconds to twenty nine |set seconds to thirty |set seconds to thirty one |
+set seconds to thirty two |set seconds to thirty three |set seconds to thirty four |set seconds to thirty five |set seconds to thirty six |set seconds to thirty seven |set seconds to thirty eight |set seconds to thirty nine |
+set seconds to forty |set seconds to forty one |set seconds to forty two |set seconds to forty three |set seconds to forty four |set seconds to forty five |set seconds to forty six |set seconds to forty seven 
+|set seconds to forty eight |set seconds to forty nine |set seconds to fifty |set seconds to fifty one |set seconds to fifty two |set seconds to fifty three |set seconds to fifty five |set seconds to fifty six |set seconds to fifty seven |set seconds to fifty eight |set seconds to fifty nine |set seconds to sixty )+;

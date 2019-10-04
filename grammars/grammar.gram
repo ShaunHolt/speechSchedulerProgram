@@ -1,0 +1,16 @@
+#JSGF V1.0;
+
+/**
+ * JSGF Grammar 
+ */
+
+grammar grammar;
+
+public <feelings>  = (command |yes|no| activate recognise two| power options| start photo shop|open calculator|open browser| close calculator|open activity schedule|close activity schedule|close social media|change wallpaper|schedule event|stop recognise|speech recognise start|add to do)+;
+public <voices>  = ( change to voice one  | change to voice two | change to voice three |open task manager|open adobe| open face book|open search site| open mail| file|speech recognise complete|close word|cancel timer)+;
+public <amazing>  = ( say amazing | what day is today | close task manager| open note pad| close note pad| open word| browse the web |open social media|open memo| cane|open events|open birthday reminder|open to do list)+;
+public <utilities>  = (who is your daddy | obey to me beach | hey boss| open word pad| close word pad| start excel| stop excel| start firewall|open computer functionality| send message|close message)+;
+public <security>  = (open windows security centre |open player |open program|open control| open paint| close paint| close browser| close firewall| open access| close access|open control desktop options|open date settings)+;
+public <complete>  = (speech recognise complete | speech recognise start | stop recognise|open device manager| open paint| shutdown system| hibernate system| change user| restart system| power options| close task manager );
+
+ 
